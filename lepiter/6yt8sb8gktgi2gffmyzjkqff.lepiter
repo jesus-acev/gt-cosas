@@ -5,80 +5,6 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-15T15:47:45.787875-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-15T15:47:45.787875-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "InweLT37DQCqc/gWAthEAw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-15T15:47:41.571313-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-15T15:47:41.571313-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "JyXeLD37DQCqcr8wAthEAw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -92,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-12T09:28:04.864595-03:00"
+						"dateAndTimeString" : "2025-09-15T15:56:37.405078-03:00"
 					}
 				},
 				"editEmail" : {
@@ -103,14 +29,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-12T09:28:20.360964-03:00"
+						"dateAndTimeString" : "2025-09-15T15:56:40.746923-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1gW/hfv6DQCTzAvCA2T8sg=="
+					"uidString" : "xVHOTD37DQCqfZ2nAthEAw=="
 				},
-				"code" : "Metacello new\n\trepository: 'github://jesus-acev/gt-cosas:main/src';\n\tbaseline: 'GtCosas';\n\tload .\r#BaselineOfGtCosas asClass loadLepiter"
+				"code" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-15T15:56:23.850392-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-15T15:56:23.850392-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "z33/Sz37DQCqfMp0AthEAw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
@@ -122,7 +85,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-12T09:27:08.103801-03:00"
+			"dateAndTimeString" : "2025-09-15T15:56:33.856743-03:00"
 		}
 	},
 	"editEmail" : {
@@ -133,15 +96,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-15T15:47:45.781136-03:00"
+			"dateAndTimeString" : "2025-09-15T15:56:33.856743-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pagina de carga"
+		"title" : "Intento de playground"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "1df25c82-fbfa-0d00-92d9-72e80364fcb2"
+		"uuid" : "cbc1fe4b-3dfb-0d00-aa7b-753002d84403"
 	}
 }

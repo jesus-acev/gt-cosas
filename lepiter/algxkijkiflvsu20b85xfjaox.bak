@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-15T11:33:27.948369-03:00"
+						"dateAndTimeString" : "2025-09-15T11:56:50.027926-03:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Stuff son las cosas que estaba probando, antes de hacer una pagina de inicio"
+				"string" : "Stuff son las cosas que estaba probando, antes de hacer una pagina de inicio, ahora quiero commitear"
 			},
 			{
 				"__type" : "pharoSnippet",
