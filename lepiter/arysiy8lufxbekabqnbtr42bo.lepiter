@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-25T23:01:32.806278-03:00"
+						"dateAndTimeString" : "2025-09-26T10:19:43.361629-03:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "2.- Inspección de objetos (4 pts)\na) Explique la diferencia entre un objeto String y un objeto Symbol en Smalltalk. ¿Por qué es importante\nesta diferenciación? Sugerencia: La ejecución del código siguiente revelará diferencias.\n\nLos Strings son mutables, se comparan por contenido y este puede ser true (=), pero 2 String son objetos disitntos, identidad unica, false al comparar con (==).\n\nLos symbols son inmutables, una instancia unica por contenido, comparables directamente por (==) y da true\n\nImportancia el diferente uso, Symbols son mejor para key/diccionarios/indentificadores y los String para comparaciones y analisis de contenido\n\n    'HeySmalltalker' == 'HeySmalltalker' \"false (dos Strings distintos)\"\n    'HeySmalltalker' asSymbol == #HeySmalltalker \"true (símbolo internado)\"\n    ('Hey','Smalltalker') == 'HeySmalltalker' \"false (String resultante vs otro literal)\"\n    ('Hey','Smalltalker') asSymbol == #HeySmalltalker \"true\"\n\n\nb) Escriba el equivalente del siguiente fragmento de código en Smalltalk como un bloque y ejecútelo con\nlos valores <38, 44>, <65, 48> y <48, 48>. Sugerencia: u1lice la herramienta de transcripción (ejemplo\nde una línea a con1nuación) como reemplazo del método de impresión.\nTranscript show: 'your output here'\n\n\n\nc) ¿Cuántas clases en GT implementan el mensaje includes: anObject?\n¿Cuántos mensajes en GT u1lizan ese mensaje en par1cular?\nNota: Para esta tarea, se supone que debes u1lizar una copia nueva e inalterada de GT sin cambios\npropios.\nICC402 – Minería de Repositorios de S"
+				"string" : "2.- Inspección de objetos (4 pts)\na) Explique la diferencia entre un objeto String y un objeto Symbol en Smalltalk. ¿Por qué es importante\nesta diferenciación? Sugerencia: La ejecución del código siguiente revelará diferencias.\n\nLos Strings son mutables, se comparan por contenido y este puede ser true (=), pero 2 String son objetos disitntos, identidad unica, false al comparar con (==).\n\nLos symbols son inmutables, una instancia unica por contenido, comparables directamente por (==) y da true\n\nImportancia el diferente uso, Symbols son mejor para key/diccionarios/indentificadores y los String para comparaciones y analisis de contenido\n\n    'HeySmalltalker' == 'HeySmalltalker' \"false (dos Strings distintos)\"\n    'HeySmalltalker' asSymbol == #HeySmalltalker \"true (símbolo internado)\"\n    ('Hey','Smalltalker') == 'HeySmalltalker' \"false (String resultante vs otro literal)\"\n    ('Hey','Smalltalker') asSymbol == #HeySmalltalker \"true\"\n\n\nb) Escriba el equivalente del siguiente fragmento de código en Smalltalk como un bloque y ejecútelo con\nlos valores <38, 44>, <65, 48> y <48, 48>. Sugerencia: u1lice la herramienta de transcripción (ejemplo\nde una línea a con1nuación) como reemplazo del método de impresión.\nTranscript show: 'your output here'\n\n\n\nc) ¿Cuántas clases en GT implementan el mensaje includes: anObject?\n¿Cuántos mensajes en GT u1lizan ese mensaje en par1cular?\nNota: Para esta tarea, se supone que debes u1lizar una copia nueva e inalterada de GT sin cambios\npropios.\n\n\n5  clases, visualizadas en una imagen nueva a traves del Spotter\n5 mensajes en GT usan ese mensaje particular, si son implementors\n\n"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -184,6 +184,40 @@
 				"code" : "| decide |\ndecide := [ :scoreA :scoreB |\n  (scoreA > scoreB)\n    ifTrue:  [ Transcript show: 'Player A Won'; cr ]\n    ifFalse: [\n      (scoreA < scoreB)\n        ifTrue:  [ Transcript show: 'Player B Won'; cr ]\n        ifFalse: [ Transcript show: 'Match is declared as draw'; cr ] ] ].\n\ndecide value: 38 value: 44.\ndecide value: 65 value: 48.\ndecide value: 48 value: 48."
 			},
 			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-26T10:23:26.127446-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-26T10:42:57.712869-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "nbh87RX8DQCAA59WD6wItg=="
+				},
+				"code" : "(SystemNavigation default allCallsOn: #includes:) size"
+			},
+			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -219,6 +253,40 @@
 					"__type" : "textStyle"
 				},
 				"string" : "3.- CallGraph (1 pt)\na) Encuentre los diez métodos más invocados en la representación CallGraph proporcionada.\nb) Para realizar este ejercicio, debes reproducir en un repositorio GitHub propio la info y estructura el\nrepo hPps://github.com/msr-dci-ufro/msr_one."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-26T00:18:47.931262-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-26T00:25:57.062038-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "u2Yjew38DQC8S+w3D6wItg=="
+				},
+				"code" : "| path lines counts top10 |\n\n\"1) Referencia al archivo Calls.txt en el mismo directorio que la imagen\"\npath := 'Calls.txt' asFileReference.\n\n\"2) Leer todas las líneas\"\nlines := path readStream contents lines.\n\n\"3) Diccionario para contar las llamadas\"\ncounts := Dictionary new.\n\n\"4) Recorrer y contar: el método invocado es el último campo de cada línea\"\nlines do: [ :line |\n    | parts callee |\n    parts := line substrings: '|'.\n    parts size > 0 ifTrue: [\n        callee := parts last.\n        counts at: callee ifAbsentPut: [ 0 ].\n        counts at: callee put: (counts at: callee) + 1\n    ].\n].\n\n\"5) Ordenar por frecuencia y obtener los 10 métodos más invocados\"\ntop10 := (counts associations\n    sort: [ :a :b | a value > b value ]) first: 10.\n\n\"6) Mostrar en el Transcript\"\ntop10 do: [ :assoc |\n    Transcript\n        show: assoc key;\n        show: '  ->  ';\n        show: assoc value asString;\n        cr\n].\n"
 			}
 		]
 	},
