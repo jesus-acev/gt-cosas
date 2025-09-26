@@ -1,0 +1,255 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T21:46:48.524194-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T21:46:48.524194-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Ck6UWwv8DQCWiaVvD6wItg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T21:46:53.663429-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T22:33:16.580097-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wrDiWwv8DQCWiyTrD6wItg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "1.- Naturaleza de Smalltalk y GT (5 puntos)\n\na) ¿Qué hay que tener en cuenta al u1lizar un sistema en vivo para el desarrollo de so:ware? En otras\npalabras, mencione una amenaza importante que no pueda surgir en el desarrollo de so:ware\ntradicional, por ejemplo, con Java, C++, etc.\n\nEn los traidcionales, todo se compila de cero, entonces no hay problemas de doble uso de espacios de memoria, en cambio en un sistema vivo, modificar cosas sobre lamarcha puede hacer que se caiga.\n\nb) ¿Qué es un mensaje en Smalltalk?\n\nEs una orden/solicitud que se envia a un objeto receptor con argumentos, los cuales este ejecutara\n\nc) ¿Qué es un bloque en Smalltalk?\n\nEs una representacion de codigo ejectuble diferido, similar a los lambdas de java [  :x | x * 2 ]\n\nd) ¿Cuáles son las contrapartes de las herramientas GT (Playground, Coder, Git, Monitor, Examples,\nExplorer, Transcript, Morphic World, SpoPer) en su entorno de desarrollo favorito?\n\n| Herramienta GT       Entorno típico (ej. VS Code, IntelliJ, Eclipse) \n\nPlayground (evaluar código)                 Consola REPL / Jupyter notebook / Terminal interactiva\nCoder (editor de métodos)         \t\t\tEditor de código / Clase o archivo fuente  \nGit                         \t\t\t\t\t\t\t\t\t\t\tPanel de control de Git / GitHub Desktop \nMonitor                     \t\t\t\t\t\t\t\t\t  Profiler / Monitor de procesos o threads \nExamples                    \t\t\t\t\t\t\t\t    Unit Tests / Ejemplos ejecutables (JUnit, Pytest)  \nExplorer                    \t\t\t\t\t\t\t\t\t  Inspector de objetos / Depurador de variables   \nTranscript                 \t\t\t\t\t\t\t\t\t Consola de salida / Log de consola\nMorphic World               \t\t\t\t\t\t\t  Canvas o diseñador visual / Scene builder \nSpotter (búsqueda global)  \t\t\t \t  Buscador global (Ctrl+Shift+F) / “Go to Anything” \n\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T21:46:41.919041-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T23:01:32.806278-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "doQvWwv8DQCWiIfYD6wItg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "2.- Inspección de objetos (4 pts)\na) Explique la diferencia entre un objeto String y un objeto Symbol en Smalltalk. ¿Por qué es importante\nesta diferenciación? Sugerencia: La ejecución del código siguiente revelará diferencias.\n\nLos Strings son mutables, se comparan por contenido y este puede ser true (=), pero 2 String son objetos disitntos, identidad unica, false al comparar con (==).\n\nLos symbols son inmutables, una instancia unica por contenido, comparables directamente por (==) y da true\n\nImportancia el diferente uso, Symbols son mejor para key/diccionarios/indentificadores y los String para comparaciones y analisis de contenido\n\n    'HeySmalltalker' == 'HeySmalltalker' \"false (dos Strings distintos)\"\n    'HeySmalltalker' asSymbol == #HeySmalltalker \"true (símbolo internado)\"\n    ('Hey','Smalltalker') == 'HeySmalltalker' \"false (String resultante vs otro literal)\"\n    ('Hey','Smalltalker') asSymbol == #HeySmalltalker \"true\"\n\n\nb) Escriba el equivalente del siguiente fragmento de código en Smalltalk como un bloque y ejecútelo con\nlos valores <38, 44>, <65, 48> y <48, 48>. Sugerencia: u1lice la herramienta de transcripción (ejemplo\nde una línea a con1nuación) como reemplazo del método de impresión.\nTranscript show: 'your output here'\n\n\n\nc) ¿Cuántas clases en GT implementan el mensaje includes: anObject?\n¿Cuántos mensajes en GT u1lizan ese mensaje en par1cular?\nNota: Para esta tarea, se supone que debes u1lizar una copia nueva e inalterada de GT sin cambios\npropios.\nICC402 – Minería de Repositorios de S"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T23:11:43.683004-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T23:11:55.054729-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1XHxigz8DQC4nc8pD6wItg=="
+				},
+				"code" : "| matchBlock |\nmatchBlock := [ :scoreA :scoreB |\n    scoreA > scoreB\n        ifTrue: [ Transcript show: 'Player A Won'; cr ]\n        ifFalse: [\n            scoreA < scoreB\n                ifTrue: [ Transcript show: 'Player B Won'; cr ]\n                ifFalse: [ Transcript show: 'Match is declared as draw'; cr ]\n        ].\n].\n\n\"Ejecutar con los valores requeridos\"\nmatchBlock value: 38 value: 44.\nmatchBlock value: 65 value: 48.\nmatchBlock value: 48 value: 48.\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T23:13:13.761836-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T23:13:14.845054-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OrOkkAz8DQC4utboD6wItg=="
+				},
+				"code" : "| decide |\ndecide := [ :scoreA :scoreB |\n  (scoreA > scoreB)\n    ifTrue:  [ Transcript show: 'Player A Won'; cr ]\n    ifFalse: [\n      (scoreA < scoreB)\n        ifTrue:  [ Transcript show: 'Player B Won'; cr ]\n        ifFalse: [ Transcript show: 'Match is declared as draw'; cr ] ] ].\n\ndecide value: 38 value: 44.\ndecide value: 65 value: 48.\ndecide value: 48 value: 48."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T22:12:41.701866-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-25T22:12:59.774243-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JtonuAv8DQCWmakID6wItg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "3.- CallGraph (1 pt)\na) Encuentre los diez métodos más invocados en la representación CallGraph proporcionada.\nb) Para realizar este ejercicio, debes reproducir en un repositorio GitHub propio la info y estructura el\nrepo hPps://github.com/msr-dci-ufro/msr_one."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-25T21:46:48.51448-03:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-09-25T21:46:48.51448-03:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Ejercicios2"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "c4e32e5b-0bfc-0d00-9687-87530fac08b6"
+	}
+}
